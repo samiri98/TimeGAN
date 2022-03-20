@@ -23,7 +23,7 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 import numpy as np
 from sklearn.metrics import mean_absolute_error
-from utils import extract_time
+from utilsTimeGan import extract_time
 
  
 def predictive_score_metrics (ori_data, generated_data):

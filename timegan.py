@@ -22,7 +22,7 @@ Note: Use original data as training set to generater synthetic data (time-series
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 import numpy as np
-from utils import extract_time, rnn_cell, random_generator, batch_generator
+from utilsTimeGan import extract_time, rnn_cell, random_generator, batch_generator
 
 
 def timegan (ori_data, parameters):

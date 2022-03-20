@@ -25,7 +25,7 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 import numpy as np
 from sklearn.metrics import accuracy_score
-from utils import train_test_divide, extract_time, batch_generator
+from utilsTimeGan import train_test_divide, extract_time, batch_generator
 
 
 def discriminative_score_metrics (ori_data, generated_data):
